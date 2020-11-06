@@ -18,7 +18,7 @@ Notes
 
 **Sample Test Run #1**
 
-For example if the file names.data contains:
+For example if the file **names.data** contains:
 
 ```
 Langsam
@@ -27,22 +27,24 @@ Arnow
 Weiss
 Cox
 ```
-  
-  
+
   
 upon program termination, the console output should be:
 
-  5 records processed.
+```
+5 records processed.
+```
 
 
+the file **results.data** should contain:
 
-the file results.data should contain:
-
+```
   Arnow 1003
   Cox 1005
   Langsam 1001
   Tenenbaum 1002
   Weiss 1004
+```
   and the exit code should be 0.
   
 ##
@@ -52,7 +54,7 @@ the file results.data should contain:
 If the file names.data did not exist, the console output should be:
 
 ```
-   *** Exception *** input file names.data not found
+*** Exception *** input file names.data not found
 ```
 
 and the exit code should be 1.
@@ -64,7 +66,7 @@ and the exit code should be 1.
 If the file names.data contains more than 50 names, the console output should be:
 
 ```
-  *** Exception *** array capacity exceeded
+*** Exception *** array capacity exceeded
 ```
   
 and the exit code should be 1.
