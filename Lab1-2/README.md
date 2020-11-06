@@ -1,4 +1,3 @@
-##
 **Lab 1.2 — Processing a List of Names**
 
 Write a C++ program to do the following:
@@ -15,7 +14,7 @@ Notes
 - Use procedural decomposition: load, sort, writeToFile functions
   - how about a swap function for use by the sort?
   
----------------------------------------
+##
 
 Sample Test Run #1
 
@@ -44,7 +43,7 @@ the file results.data should contain:
   Weiss 1004
   and the exit code should be 0.
   
------------------------------------------------
+##
   
 Sample Test Run #2
 
@@ -54,7 +53,7 @@ If the file names.data did not exist, the console output should be:
    
 and the exit code should be 1.
 
-------------------------------------------------
+##
 
 Sample Test Run #3
 
@@ -65,4 +64,4 @@ If the file names.data contains more than 50 names, the console output should be
 and the exit code should be 1.
 
 
-##
+
