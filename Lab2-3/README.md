@@ -21,11 +21,11 @@ Rational numbers can be negated, inverted, added, subtracted, multiplied, and di
 - If the numerator and denominator can be evenly divided by the same number (thus leaving the value unchanged), we say the result is a simpler form of the number, and the process is known as reducing the fraction. The simplest or normal form of the fraction is one which cannot be further reduced and the process is called normalization or reducing to lowest terms.
 - The lowest terms of a rational number can thus be obtained by dividing the numerator and denominator by their greatest common divisor (gcd)-- i.e., the largest number that divides them both evenly. For example, given the rational number 16/20, the gcd of 16 and 20 is 4 and dividing 16 and 20 by 4 produces 4 and 5 respectively; thus the simplest form of 16/20 is 4/5.
 - The gcd of two numbers can be obtained recursively in the following fashion:
-  ```java
-  		gcd(a, b) :
-  		   if b == 0 return a
-	  	   else return gcd(b, a%b) 
-  ```		
+  	```java
+  	gcd(a, b) :
+  		if b == 0 return a
+		else return gcd(b, a%b) 
+  	```		
 - Simplest forms are useful for printing, as well as various operations — addition and comparison in particular.
 
 **A Rational Class**
