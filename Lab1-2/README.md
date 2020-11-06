@@ -1,4 +1,4 @@
-##Lab 1.2 — Processing a List of Names
+## Lab 1.2 — Processing a List of Names
 
 Write a C++ program to do the following:
 - Load up an array of names from the files names.data
@@ -20,11 +20,13 @@ Notes
 
 For example if the file names.data contains:
 
-`<addr>`Langsam
-  Tenenbaum
-  Arnow
-  Weiss
-  Cox
+```
+Langsam
+Tenenbaum
+Arnow
+Weiss
+Cox
+```
   
   
   
@@ -49,8 +51,10 @@ the file results.data should contain:
 
 If the file names.data did not exist, the console output should be:
 
+```
    *** Exception *** input file names.data not found
-   
+```
+
 and the exit code should be 1.
 
 ##
@@ -59,7 +63,9 @@ and the exit code should be 1.
 
 If the file names.data contains more than 50 names, the console output should be:
 
+```
   *** Exception *** array capacity exceeded
+```
   
 and the exit code should be 1.
 
