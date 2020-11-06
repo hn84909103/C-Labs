@@ -39,11 +39,11 @@ upon program termination, the console output should be:
 the file **results.data** should contain:
 
 ```
-  Arnow 1003
-  Cox 1005
-  Langsam 1001
-  Tenenbaum 1002
-  Weiss 1004
+Arnow 1003
+Cox 1005
+Langsam 1001
+Tenenbaum 1002
+Weiss 1004
 ```
   and the exit code should be 0.
   
